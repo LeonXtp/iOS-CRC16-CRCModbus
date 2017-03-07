@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3549EBD11E6EB513004E4F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3549EBD01E6EB513004E4F8C /* main.m */; };
+		3549EBD41E6EB513004E4F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3549EBD31E6EB513004E4F8C /* AppDelegate.m */; };
+		3549EBD71E6EB513004E4F8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3549EBD61E6EB513004E4F8C /* ViewController.m */; };
+		3549EBDA1E6EB513004E4F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3549EBD81E6EB513004E4F8C /* Main.storyboard */; };
+		3549EBDC1E6EB513004E4F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3549EBDB1E6EB513004E4F8C /* Assets.xcassets */; };
+		3549EBDF1E6EB513004E4F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3549EBDD1E6EB513004E4F8C /* LaunchScreen.storyboard */; };
+		3549EBEA1E6EB514004E4F8C /* iOS_CRC16_ModbusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3549EBE91E6EB514004E4F8C /* iOS_CRC16_ModbusTests.m */; };
+		3549EBF51E6EB514004E4F8C /* iOS_CRC16_ModbusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3549EBF41E6EB514004E4F8C /* iOS_CRC16_ModbusUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3549EBE61E6EB514004E4F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3549EBC41E6EB513004E4F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3549EBCB1E6EB513004E4F8C;
+			remoteInfo = "iOS-CRC16-Modbus";
+		};
+		3549EBF11E6EB514004E4F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3549EBC41E6EB513004E4F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3549EBCB1E6EB513004E4F8C;
+			remoteInfo = "iOS-CRC16-Modbus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3549EBCC1E6EB513004E4F8C /* iOS-CRC16-Modbus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-CRC16-Modbus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549EBD01E6EB513004E4F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3549EBD21E6EB513004E4F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3549EBD31E6EB513004E4F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3549EBD51E6EB513004E4F8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3549EBD61E6EB513004E4F8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3549EBD91E6EB513004E4F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3549EBDB1E6EB513004E4F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3549EBDE1E6EB513004E4F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3549EBE01E6EB513004E4F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3549EBE51E6EB514004E4F8C /* iOS-CRC16-ModbusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-CRC16-ModbusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549EBE91E6EB514004E4F8C /* iOS_CRC16_ModbusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_CRC16_ModbusTests.m; sourceTree = "<group>"; };
+		3549EBEB1E6EB514004E4F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3549EBF01E6EB514004E4F8C /* iOS-CRC16-ModbusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-CRC16-ModbusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549EBF41E6EB514004E4F8C /* iOS_CRC16_ModbusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_CRC16_ModbusUITests.m; sourceTree = "<group>"; };
+		3549EBF61E6EB514004E4F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3549EBC91E6EB513004E4F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3549EBE21E6EB514004E4F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3549EBED1E6EB514004E4F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3549EBC31E6EB513004E4F8C = {
+			isa = PBXGroup;
+			children = (
+				3549EBCE1E6EB513004E4F8C /* iOS-CRC16-Modbus */,
+				3549EBE81E6EB514004E4F8C /* iOS-CRC16-ModbusTests */,
+				3549EBF31E6EB514004E4F8C /* iOS-CRC16-ModbusUITests */,
+				3549EBCD1E6EB513004E4F8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3549EBCD1E6EB513004E4F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3549EBCC1E6EB513004E4F8C /* iOS-CRC16-Modbus.app */,
+				3549EBE51E6EB514004E4F8C /* iOS-CRC16-ModbusTests.xctest */,
+				3549EBF01E6EB514004E4F8C /* iOS-CRC16-ModbusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3549EBCE1E6EB513004E4F8C /* iOS-CRC16-Modbus */ = {
+			isa = PBXGroup;
+			children = (
+				3549EBD21E6EB513004E4F8C /* AppDelegate.h */,
+				3549EBD31E6EB513004E4F8C /* AppDelegate.m */,
+				3549EBD51E6EB513004E4F8C /* ViewController.h */,
+				3549EBD61E6EB513004E4F8C /* ViewController.m */,
+				3549EBD81E6EB513004E4F8C /* Main.storyboard */,
+				3549EBDB1E6EB513004E4F8C /* Assets.xcassets */,
+				3549EBDD1E6EB513004E4F8C /* LaunchScreen.storyboard */,
+				3549EBE01E6EB513004E4F8C /* Info.plist */,
+				3549EBCF1E6EB513004E4F8C /* Supporting Files */,
+			);
+			path = "iOS-CRC16-Modbus";
+			sourceTree = "<group>";
+		};
+		3549EBCF1E6EB513004E4F8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3549EBD01E6EB513004E4F8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3549EBE81E6EB514004E4F8C /* iOS-CRC16-ModbusTests */ = {
+			isa = PBXGroup;
+			children = (
+				3549EBE91E6EB514004E4F8C /* iOS_CRC16_ModbusTests.m */,
+				3549EBEB1E6EB514004E4F8C /* Info.plist */,
+			);
+			path = "iOS-CRC16-ModbusTests";
+			sourceTree = "<group>";
+		};
+		3549EBF31E6EB514004E4F8C /* iOS-CRC16-ModbusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3549EBF41E6EB514004E4F8C /* iOS_CRC16_ModbusUITests.m */,
+				3549EBF61E6EB514004E4F8C /* Info.plist */,
+			);
+			path = "iOS-CRC16-ModbusUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3549EBCB1E6EB513004E4F8C /* iOS-CRC16-Modbus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3549EBF91E6EB514004E4F8C /* Build configuration list for PBXNativeTarget "iOS-CRC16-Modbus" */;
+			buildPhases = (
+				3549EBC81E6EB513004E4F8C /* Sources */,
+				3549EBC91E6EB513004E4F8C /* Frameworks */,
+				3549EBCA1E6EB513004E4F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-CRC16-Modbus";
+			productName = "iOS-CRC16-Modbus";
+			productReference = 3549EBCC1E6EB513004E4F8C /* iOS-CRC16-Modbus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3549EBE41E6EB514004E4F8C /* iOS-CRC16-ModbusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3549EBFC1E6EB514004E4F8C /* Build configuration list for PBXNativeTarget "iOS-CRC16-ModbusTests" */;
+			buildPhases = (
+				3549EBE11E6EB514004E4F8C /* Sources */,
+				3549EBE21E6EB514004E4F8C /* Frameworks */,
+				3549EBE31E6EB514004E4F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3549EBE71E6EB514004E4F8C /* PBXTargetDependency */,
+			);
+			name = "iOS-CRC16-ModbusTests";
+			productName = "iOS-CRC16-ModbusTests";
+			productReference = 3549EBE51E6EB514004E4F8C /* iOS-CRC16-ModbusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3549EBEF1E6EB514004E4F8C /* iOS-CRC16-ModbusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3549EBFF1E6EB514004E4F8C /* Build configuration list for PBXNativeTarget "iOS-CRC16-ModbusUITests" */;
+			buildPhases = (
+				3549EBEC1E6EB514004E4F8C /* Sources */,
+				3549EBED1E6EB514004E4F8C /* Frameworks */,
+				3549EBEE1E6EB514004E4F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3549EBF21E6EB514004E4F8C /* PBXTargetDependency */,
+			);
+			name = "iOS-CRC16-ModbusUITests";
+			productName = "iOS-CRC16-ModbusUITests";
+			productReference = 3549EBF01E6EB514004E4F8C /* iOS-CRC16-ModbusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3549EBC41E6EB513004E4F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Leon;
+				TargetAttributes = {
+					3549EBCB1E6EB513004E4F8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4KW366ZQ2J;
+						ProvisioningStyle = Automatic;
+					};
+					3549EBE41E6EB514004E4F8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4KW366ZQ2J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3549EBCB1E6EB513004E4F8C;
+					};
+					3549EBEF1E6EB514004E4F8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4KW366ZQ2J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3549EBCB1E6EB513004E4F8C;
+					};
+				};
+			};
+			buildConfigurationList = 3549EBC71E6EB513004E4F8C /* Build configuration list for PBXProject "iOS-CRC16-Modbus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3549EBC31E6EB513004E4F8C;
+			productRefGroup = 3549EBCD1E6EB513004E4F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3549EBCB1E6EB513004E4F8C /* iOS-CRC16-Modbus */,
+				3549EBE41E6EB514004E4F8C /* iOS-CRC16-ModbusTests */,
+				3549EBEF1E6EB514004E4F8C /* iOS-CRC16-ModbusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3549EBCA1E6EB513004E4F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3549EBDF1E6EB513004E4F8C /* LaunchScreen.storyboard in Resources */,
+				3549EBDC1E6EB513004E4F8C /* Assets.xcassets in Resources */,
+				3549EBDA1E6EB513004E4F8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3549EBE31E6EB514004E4F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3549EBEE1E6EB514004E4F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3549EBC81E6EB513004E4F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3549EBD71E6EB513004E4F8C /* ViewController.m in Sources */,
+				3549EBD41E6EB513004E4F8C /* AppDelegate.m in Sources */,
+				3549EBD11E6EB513004E4F8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3549EBE11E6EB514004E4F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3549EBEA1E6EB514004E4F8C /* iOS_CRC16_ModbusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3549EBEC1E6EB514004E4F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3549EBF51E6EB514004E4F8C /* iOS_CRC16_ModbusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3549EBE71E6EB514004E4F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3549EBCB1E6EB513004E4F8C /* iOS-CRC16-Modbus */;
+			targetProxy = 3549EBE61E6EB514004E4F8C /* PBXContainerItemProxy */;
+		};
+		3549EBF21E6EB514004E4F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3549EBCB1E6EB513004E4F8C /* iOS-CRC16-Modbus */;
+			targetProxy = 3549EBF11E6EB514004E4F8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3549EBD81E6EB513004E4F8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3549EBD91E6EB513004E4F8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3549EBDD1E6EB513004E4F8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3549EBDE1E6EB513004E4F8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3549EBF71E6EB514004E4F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3549EBF81E6EB514004E4F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3549EBFA1E6EB514004E4F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4KW366ZQ2J;
+				INFOPLIST_FILE = "iOS-CRC16-Modbus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.iOS-CRC16-Modbus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3549EBFB1E6EB514004E4F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4KW366ZQ2J;
+				INFOPLIST_FILE = "iOS-CRC16-Modbus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.iOS-CRC16-Modbus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3549EBFD1E6EB514004E4F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4KW366ZQ2J;
+				INFOPLIST_FILE = "iOS-CRC16-ModbusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.iOS-CRC16-ModbusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-CRC16-Modbus.app/iOS-CRC16-Modbus";
+			};
+			name = Debug;
+		};
+		3549EBFE1E6EB514004E4F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4KW366ZQ2J;
+				INFOPLIST_FILE = "iOS-CRC16-ModbusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.iOS-CRC16-ModbusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-CRC16-Modbus.app/iOS-CRC16-Modbus";
+			};
+			name = Release;
+		};
+		3549EC001E6EB514004E4F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4KW366ZQ2J;
+				INFOPLIST_FILE = "iOS-CRC16-ModbusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.iOS-CRC16-ModbusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-CRC16-Modbus";
+			};
+			name = Debug;
+		};
+		3549EC011E6EB514004E4F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4KW366ZQ2J;
+				INFOPLIST_FILE = "iOS-CRC16-ModbusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.iOS-CRC16-ModbusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-CRC16-Modbus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3549EBC71E6EB513004E4F8C /* Build configuration list for PBXProject "iOS-CRC16-Modbus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3549EBF71E6EB514004E4F8C /* Debug */,
+				3549EBF81E6EB514004E4F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3549EBF91E6EB514004E4F8C /* Build configuration list for PBXNativeTarget "iOS-CRC16-Modbus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3549EBFA1E6EB514004E4F8C /* Debug */,
+				3549EBFB1E6EB514004E4F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3549EBFC1E6EB514004E4F8C /* Build configuration list for PBXNativeTarget "iOS-CRC16-ModbusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3549EBFD1E6EB514004E4F8C /* Debug */,
+				3549EBFE1E6EB514004E4F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3549EBFF1E6EB514004E4F8C /* Build configuration list for PBXNativeTarget "iOS-CRC16-ModbusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3549EC001E6EB514004E4F8C /* Debug */,
+				3549EC011E6EB514004E4F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3549EBC41E6EB513004E4F8C /* Project object */;
+}
