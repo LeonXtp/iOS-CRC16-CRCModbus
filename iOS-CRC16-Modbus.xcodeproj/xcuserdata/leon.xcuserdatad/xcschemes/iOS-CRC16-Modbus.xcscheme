@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3549EBCB1E6EB513004E4F8C"
+               BuildableName = "iOS-CRC16-Modbus.app"
+               BlueprintName = "iOS-CRC16-Modbus"
+               ReferencedContainer = "container:iOS-CRC16-Modbus.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3549EBE41E6EB514004E4F8C"
+               BuildableName = "iOS-CRC16-ModbusTests.xctest"
+               BlueprintName = "iOS-CRC16-ModbusTests"
+               ReferencedContainer = "container:iOS-CRC16-Modbus.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3549EBEF1E6EB514004E4F8C"
+               BuildableName = "iOS-CRC16-ModbusUITests.xctest"
+               BlueprintName = "iOS-CRC16-ModbusUITests"
+               ReferencedContainer = "container:iOS-CRC16-Modbus.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3549EBCB1E6EB513004E4F8C"
+            BuildableName = "iOS-CRC16-Modbus.app"
+            BlueprintName = "iOS-CRC16-Modbus"
+            ReferencedContainer = "container:iOS-CRC16-Modbus.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3549EBCB1E6EB513004E4F8C"
+            BuildableName = "iOS-CRC16-Modbus.app"
+            BlueprintName = "iOS-CRC16-Modbus"
+            ReferencedContainer = "container:iOS-CRC16-Modbus.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3549EBCB1E6EB513004E4F8C"
+            BuildableName = "iOS-CRC16-Modbus.app"
+            BlueprintName = "iOS-CRC16-Modbus"
+            ReferencedContainer = "container:iOS-CRC16-Modbus.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

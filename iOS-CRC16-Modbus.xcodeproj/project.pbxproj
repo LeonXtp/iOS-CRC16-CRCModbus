@@ -15,6 +15,8 @@
 		3549EBDF1E6EB513004E4F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3549EBDD1E6EB513004E4F8C /* LaunchScreen.storyboard */; };
 		3549EBEA1E6EB514004E4F8C /* iOS_CRC16_ModbusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3549EBE91E6EB514004E4F8C /* iOS_CRC16_ModbusTests.m */; };
 		3549EBF51E6EB514004E4F8C /* iOS_CRC16_ModbusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3549EBF41E6EB514004E4F8C /* iOS_CRC16_ModbusUITests.m */; };
+		3549EC071E6EB526004E4F8C /* NSData+CRC16.m in Sources */ = {isa = PBXBuildFile; fileRef = 3549EC041E6EB526004E4F8C /* NSData+CRC16.m */; };
+		3549EC081E6EB526004E4F8C /* NSString+WithCRCModbus.m in Sources */ = {isa = PBXBuildFile; fileRef = 3549EC061E6EB526004E4F8C /* NSString+WithCRCModbus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		3549EBF01E6EB514004E4F8C /* iOS-CRC16-ModbusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-CRC16-ModbusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3549EBF41E6EB514004E4F8C /* iOS_CRC16_ModbusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_CRC16_ModbusUITests.m; sourceTree = "<group>"; };
 		3549EBF61E6EB514004E4F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3549EC031E6EB526004E4F8C /* NSData+CRC16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CRC16.h"; sourceTree = "<group>"; };
+		3549EC041E6EB526004E4F8C /* NSData+CRC16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CRC16.m"; sourceTree = "<group>"; };
+		3549EC051E6EB526004E4F8C /* NSString+WithCRCModbus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WithCRCModbus.h"; sourceTree = "<group>"; };
+		3549EC061E6EB526004E4F8C /* NSString+WithCRCModbus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WithCRCModbus.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		3549EBCE1E6EB513004E4F8C /* iOS-CRC16-Modbus */ = {
 			isa = PBXGroup;
 			children = (
+				3549EC021E6EB526004E4F8C /* Class */,
 				3549EBD21E6EB513004E4F8C /* AppDelegate.h */,
 				3549EBD31E6EB513004E4F8C /* AppDelegate.m */,
 				3549EBD51E6EB513004E4F8C /* ViewController.h */,
@@ -138,6 +145,17 @@
 				3549EBF61E6EB514004E4F8C /* Info.plist */,
 			);
 			path = "iOS-CRC16-ModbusUITests";
+			sourceTree = "<group>";
+		};
+		3549EC021E6EB526004E4F8C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3549EC031E6EB526004E4F8C /* NSData+CRC16.h */,
+				3549EC041E6EB526004E4F8C /* NSData+CRC16.m */,
+				3549EC051E6EB526004E4F8C /* NSString+WithCRCModbus.h */,
+				3549EC061E6EB526004E4F8C /* NSString+WithCRCModbus.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +296,9 @@
 			files = (
 				3549EBD71E6EB513004E4F8C /* ViewController.m in Sources */,
 				3549EBD41E6EB513004E4F8C /* AppDelegate.m in Sources */,
+				3549EC071E6EB526004E4F8C /* NSData+CRC16.m in Sources */,
 				3549EBD11E6EB513004E4F8C /* main.m in Sources */,
+				3549EC081E6EB526004E4F8C /* NSString+WithCRCModbus.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4KW366ZQ2J;
 				INFOPLIST_FILE = "iOS-CRC16-Modbus/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.iOS-CRC16-Modbus";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4KW366ZQ2J;
 				INFOPLIST_FILE = "iOS-CRC16-Modbus/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.iOS-CRC16-Modbus";
 				PRODUCT_NAME = "$(TARGET_NAME)";
